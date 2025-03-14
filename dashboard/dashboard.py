@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Memuat dataset baru
-file_path = "all_data.csv"  # Sesuaikan dengan lokasi file
+file_path = "https://raw.githubusercontent.com/zakikholik/proyek_analisis_data/refs/heads/main/dashboard/all_data.csv"  # Sesuaikan dengan lokasi file
 all_data = pd.read_csv(file_path)
 
 # Memilih kolom yang relevan dari dataset
